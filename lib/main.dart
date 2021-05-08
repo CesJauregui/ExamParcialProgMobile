@@ -363,8 +363,8 @@ class _InputDateState extends State<InputDate> {
   void _selectDate(BuildContext context) async {
     DateTime date = await showDatePicker(
       context: context,
-      firstDate: DateTime(2020),
-      lastDate: DateTime(2022),
+      firstDate: DateTime(1950),
+      lastDate: DateTime(2010),
       initialDate: DateTime.now(),
     );
 
